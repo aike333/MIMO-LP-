@@ -8,31 +8,42 @@ MIMOLP identifies that existing subgraph-based link prediction methods suffer fr
 pip install -r requirements.txt
 ```
 
-Quick Start
-Run with Backbone M-SEAL
+## Quick Start
 
-# NS dataset
+
+Type:  
 ```bash
 python Main.py --model-name M-SEAL --data-name NS --multiplexing-count 40 --test-ratio 0.2
 ```
-# Yeast dataset
+to test dataset NS with multiplexing count 40 on backbone M-SEAL.
+
+Type:  
 ```bash
 python Main.py --model-name M-SEAL --data-name Yeast --multiplexing-count 50 --test-ratio 0.2
 ```
-# Drugbank dataset
+to test dataset Yeast with multiplexing count 50 on backbone M-SEAL.
+
+Type:  
 ```bash
 python Main.py --model-name M-SEAL --data-name Drugbank --multiplexing-count 50 --test-ratio 0.2
 Run with Backbone M-PS2
 ```
-# NS dataset
+to test dataset Drugbank with multiplexing count 50 on backbone M-SEAL.
+
+Type:  
 ```bash
 python Main.py --model-name M-PS2 --data-name NS --multiplexing-count 40 --test-ratio 0.2
 ```
-# Yeast dataset
+to test dataset NS with multiplexing count 40 on backbone M-PS2.
+
+Type:  
 ```bash
 python Main.py --model-name M-PS2 --data-name Yeast --multiplexing-count 50 --test-ratio 0.2
 ```
-# Drugbank dataset
+to test dataset Yeast with multiplexing count 50 on backbone M-PS2.
+
+Type:  
 ```bash
 python Main.py --model-name M-PS2 --data-name Drugbank --multiplexing-count 50 --test-ratio 0.2
 ```
+to test dataset Drugbank with multiplexing count 50 on backbone M-PS2.
